@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="estilos.css">
+    <title>Contacto</title>
+</head>
+
+<body>
+  <header>
+    <div class="container-nav">
+        <nav class="navbar" role="navigation">
+          <h1 class="brand">Mi pagina web</h1>   
+        <ul class="nav-links">
+          <li><a  href="index.html">Home</a></li>
+          <li><a  href="nosotros.html">Nosotros</a></li>
+          <li><a  href="servicios.html">Servicios</a></li>
+          <li><a  href="contactos.html">Contactos</a></li>
+        </ul>
+      </nav>
+      <button class="button-menu-toggle">Menu</button>
+    </div>
+  </header>
+    
+    <div class="container">
+      <h1>Contacto</h1>
+      <br>
+      <p>¡Contáctanos para cualquier consulta o solicitud de información!</p>
+      <br>
+      <div class="formulario">
+        <h2>Formulario</h2>
+        <br><br>
+        <form id="myForm" action="" target="_blank">
+          <legend>
+            <h3>Complete los siguientes campos</h3>
+          </legend><br><br>
+          <div class="input">
+            <label for="firstname">Nombre: </label>
+            <input size="30" type="text" name="firstname" placeholder="Ingrese su nombre aqui...">
+          </div>
+          <br>
+          <div class="input">
+            <label for="email">Correo electrónico:</label>
+            <input type="email" id="email" name="email" required placeholder="abc@mail.com">
+          </div>
+          <br>
+          <div class="input">
+            <label for="mensaje">Mensaje</label> <textarea name="mensajes" rows="5" cols="30"></textarea>
+          </div>
+          <br><br>
+          <button type="submit">Enviar</button>
+          <button type="reset">Reset</button>
+        </form>
+      </div>
+      <button id="miBoton">Haz clic aqui!</button>
+      </div>
+
+
+    <script src="validacion.js"></script>
+    </body>
+
+</html>
