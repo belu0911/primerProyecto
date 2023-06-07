@@ -13,6 +13,7 @@ boton.addEventListener("click", function(){
     alert("Haz hecho click en el boton!");
 });
 
+//Validacion formulario
 const form = document.getElementById('myForm');
 form.addEventListener('submit', function(event) {
   event.preventDefault();

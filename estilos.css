@@ -7,6 +7,14 @@
     scroll-behavior: smooth;
 }
 
+body {
+    background-color: #d0f4deff;
+    /*para que el footer me quede siempre abajo*/
+    display: grid;
+    min-height: 100vh;
+    grid-template-rows: auto 1fr auto;
+}
+
 /*Estilos index*/
 .container {
     max-width: 800px;
@@ -14,17 +22,23 @@
     padding: 20px;
     color: #02273a;
     font-family: Courier;
-  }
+    text-align: center;
+}
+
 .row {
     display: flex;
     flex-wrap: wrap;
     margin: 10px;
-  }
-  
+}
+
 .column {
     flex: 1;
     padding: 10px;
-  }
+}
+
+#corto {
+    padding: 20px;
+}
 
 /*estilos img nosotros*/
 .img {
@@ -38,7 +52,8 @@
 }
 
 /*estilos barra navegacion*/
-header {
+header,
+footer {
     font-family: monospace;
     font-size: 20px;
     background-color: #457b9dff;
@@ -99,38 +114,38 @@ a {
     display: none;
 }
 
-body {
-    background-color:#d0f4deff;
-}
 /*Estilos formulario*/
-.formulario{
-  font-family: Arial, sans-serif;
-  color: #2b6785;
-  width: 50%;
-  height: 650px;
-  justify-content: center;
-  align-items: center;
+.formulario {
+    font-family: Arial, sans-serif;
+    color: #2b6785;
+    width: 50%;
+    height: 650px;
+    justify-content: center;
+    align-items: center;
 }
-#myForm{
-  background: #fff;
-  padding: 10px 0;
-  border-radius: 10px;
-  box-shadow: 0 0 6px rgba(255, 255, 255, 0.8);
+
+#myForm {
+    background: #fff;
+    padding: 10px 0;
+    border-radius: 10px;
+    box-shadow: 0 0 6px rgba(255, 255, 255, 0.8);
 }
+
 form .grupo {
     position: relative;
     margin: 45px;
 }
+
 input,
 textarea {
-  background: none;
-  color: #c6c6c6;
-  font-size: 18px;
-  padding: 10px 10px 10px 5px;
-  display: block;
-  width: 100%;
-  border: none;
-  resize: none;
+    background: none;
+    color: #c6c6c6;
+    font-size: 18px;
+    padding: 10px 10px 10px 5px;
+    display: block;
+    width: 100%;
+    border: none;
+    resize: none;
 }
 
 
@@ -138,9 +153,9 @@ textarea {
 /*Estilos diferentes tipos de pantalla*/
 @media (max-width: 600px) {
     .column {
-      flex: 100%;
+        flex: 100%;
     }
-  }
+}
 
 @media (max-width:768px) {
     header {
