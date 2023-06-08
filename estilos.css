@@ -41,7 +41,7 @@ body {
 }
 
 /*estilos img nosotros*/
-.img {
+.img-foto {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
@@ -49,6 +49,40 @@ body {
 
 .foto {
     width: 200px;
+}
+
+/*Estilos fotos galeria*/
+.img {
+    max-width: 99%;
+    height: 99%;
+}
+
+.image-slider {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    height: 600px;
+    width: 100%;
+    position: relative;
+}
+.button-slider{
+    border: none;
+    width: 10%;
+    height: 100%;
+    font-size: 60px;
+    background-color: transparent;
+    cursor: pointer;
+}
+#anterior{
+    position: absolute;
+    left: 0;
+}
+#siguiente{
+    position: absolute;
+    right: 0;
+}
+.button-slider:hover{
+background-color: rgba(255, 255, 255, 0.5);
 }
 
 /*estilos barra navegacion*/

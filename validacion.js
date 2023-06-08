@@ -33,3 +33,4 @@ function validateEmail(email) {
       alert('Correo electrónico enviado correctamente.');
     }
   }
+
