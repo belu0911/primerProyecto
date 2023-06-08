@@ -12,7 +12,7 @@
         return cambioPosicion(-1);});
 
         function cambioPosicion (change){
-            console.log(change)
+            const elementoActual = document.querySelector("")
         }
 
     
