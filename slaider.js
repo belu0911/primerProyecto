@@ -18,6 +18,7 @@
     
     
     
+    
     //let imagen2 = document.getElementById('imagen2').src;
     //function siguienteImagen(){
        //for (i=0; i<=3; i++){

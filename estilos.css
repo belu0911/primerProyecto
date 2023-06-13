@@ -8,7 +8,7 @@
 }
 
 body {
-    background-color: #d0f4deff;
+    background-color:  #d0f4deff;
     /*para que el footer me quede siempre abajo*/
     display: grid;
     min-height: 100vh;
